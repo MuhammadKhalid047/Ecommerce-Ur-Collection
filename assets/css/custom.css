@@ -1,0 +1,21 @@
+.banner {
+    margin: 0;
+    padding: 0;
+    height: 500px; /* Adjust the height based on your content */
+}
+
+.parallax-container {
+    background-image: url('../img/gallery/banner.jpg'); /* Replace 'your-image.jpg' with your actual image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+}
+.rte ul li{
+    list-style: disc;
+}
